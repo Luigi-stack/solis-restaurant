@@ -9,7 +9,7 @@ function NavBarTop() {
   return (
     <>
 
-      <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-white mt-3 mx-3 border border-2 border-dark">
+      <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-white mt-3 mx-2 border border-2 border-dark">
         <Container>
           <Navbar.Brand href="#home">Solis</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border border-0 rounded-0' />
@@ -20,7 +20,7 @@ function NavBarTop() {
               <Nav.Link href="#hoursandlocation" className='me-4 mt-2'>Hours & Location</Nav.Link>
               <Nav.Link href="#about" className='me-4 mt-2'>About</Nav.Link>
               <Nav.Link href="#reservation">
-                <Button variant="dark" className='rounded-0'>Reservation</Button>
+                <Button variant="dark" className='rounded-0'>RESERVATIONS</Button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
