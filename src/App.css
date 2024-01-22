@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Garnet';
+    src: url('../src/fonts/GarnetScript-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+  }
