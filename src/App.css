@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 @font-face {
     font-family: 'Garnet';
     src: url('../src/fonts/GarnetScript-Regular.ttf') format('truetype');
@@ -5,5 +7,18 @@
     font-style: normal;
   }
 
-  body {
+
+body{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.navbartop {
+  margin-top: 120px !important;
+}
+
+  h1 {
+    font-family: 'Garnet';
+    font-size: 80px;
   }
