@@ -11,12 +11,12 @@ function NavBarTop() {
 
       <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-white mt-3 mx-2 border border-2 border-dark">
         <Container>
-          <Navbar.Brand href="#home">Solis</Navbar.Brand>
+          <Navbar.Brand href="/home">Solis</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border border-0 rounded-0' />
           <Navbar.Collapse id="responsive-navbar-nav">
 
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className='me-4 mt-2'>Menus</Nav.Link>
+              <Nav.Link href="/menus" className='me-4 mt-2'>Menus</Nav.Link>
               <Nav.Link href="#hoursandlocation" className='me-4 mt-2'>Hours & Location</Nav.Link>
               <Nav.Link href="#about" className='me-4 mt-2'>About</Nav.Link>
               <Nav.Link href="#reservation">

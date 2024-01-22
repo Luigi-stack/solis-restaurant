@@ -9,7 +9,7 @@ import carousel_homepage5 from '../assets/carousel/carousel_homepage5.png';
 function CarouselHomepage() {
     return (
         <>
-            <Carousel fade className='m-5 navbartop'>
+            <Carousel fade className='mx-5 mb-5 navbartop'>
                 <Carousel.Item>
                     <img className='w-100' src={carousel_homepage1} alt="italian food"  />
                 </Carousel.Item>
