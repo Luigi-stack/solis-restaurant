@@ -13,14 +13,13 @@ function Pizza () {
     return (
         <>
         <Container className="mb-5 text-center">
-                <h2 className="mt-5 mb-0">Pizza</h2>
-                <p className="mt-0">NEAPOLITAN STYLE</p>
+                <h2 className="mt-5 mb-4">Pizza</h2>
                 {pizza_menu.map((pizza, index) =>
                 (
                     <Container key={index} className="mb-3">
                         <h6>{pizza.name}</h6>
-                        <p>{pizza.ingredients.join(", ")}</p>
-                        <p>{pizza.price}</p>
+                        <p className="mb-0">{pizza.ingredients.join(", ")}</p>
+                        <p className="fw-bold mt-0">{pizza.price}</p>
                     </Container>
                 )
                 )}

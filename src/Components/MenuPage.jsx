@@ -12,7 +12,7 @@ const MenuPage = () => {
     return (
         <>
             <Container className='navbartop'>
-                <h1 className="text-center">Menù</h1>
+                <h1 className="text-center border-bottom border-dark">Menù</h1>
                 <Tabs
                     defaultActiveKey="antipasti"
                     id="justify-tab-example"

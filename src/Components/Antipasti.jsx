@@ -58,14 +58,13 @@ function Antipasti() {
     return (
         <>
             <Container className="mb-5 text-center">
-                <h2 className="mt-5 mb-0">Antipasti</h2>
-                <p className="mt-0">APPETIZERS</p>
+                <h2 className="mt-5 mb-4">Antipasti</h2>
                 {antipastiData.map((antipasto, index) =>
                 (
                     <Container key={index} className="mb-3">
                         <h6>{antipasto.name}</h6>
-                        <p>{antipasto.description}</p>
-                        <p>{antipasto.price}</p>
+                        <p className="mb-0">{antipasto.description}</p>
+                        <p className="fw-bold mt-0">{antipasto.price}</p>
                     </Container>
                 )
                 )}

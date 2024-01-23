@@ -58,14 +58,13 @@ function Primi () {
     return (
         <>
          <Container className="mb-5 text-center">
-                <h2 className="mt-5 mb-0">Prmi</h2>
-                <p className="mt-0">HOUSEMADE FRESH PASTA</p>
+                <h2 className="mt-5 mb-4">Prmi</h2>
                 {primiData.map((primi, index) =>
                 (
                     <Container key={index} className="mb-3">
                         <h6>{primi.name}</h6>
-                        <p>{primi.description}</p>
-                        <p>{primi.price}</p>
+                        <p className="mb-0">{primi.description}</p>
+                        <p className="fw-bold mt-0">{primi.price}</p>
                     </Container>
                 )
                 )}

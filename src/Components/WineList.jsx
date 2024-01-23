@@ -44,20 +44,20 @@ function capitalizeFirstLetter(string) {
   
     return (
       <>
-        <Container className="mb-5 text-center">
+        <Container className="mb-5">
           {Object.keys(groupedWines).map((wineType) => (
-            <div key={wineType}>
-              <h2 className="mt-5 mb-0">{capitalizeFirstLetter(wineType)}</h2>
+            <Container key={wineType}>
+              <h2 className="mt-5 mb-5 border-bottom border-dark mx-5 ps-5">{capitalizeFirstLetter(wineType)}</h2>
               {groupedWines[wineType].map((wine, index) => (
-                <Container key={index} className="mb-3">
+                <Container key={index} className="mb-3 text-center">
                   <h6>{wine.name}</h6>
                   <p>{wine.region}</p>
                   <p>
-                    <FaWineBottle /> {wine.price.bottle} | <FaWineGlassAlt /> {wine.price.glass}
+                    <FaWineBottle /> <span className="fw-bold">{wine.price.bottle}</span> | <FaWineGlassAlt /> <span className="fw-bold">{wine.price.glass}</span>
                   </p>
                 </Container>
               ))}
-            </div>
+            </Container>
           ))}
         </Container>
       </>

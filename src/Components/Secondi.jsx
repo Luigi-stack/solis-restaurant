@@ -13,14 +13,13 @@ function Secondi () {
     return (
         <>
         <Container className="mb-5 text-center">
-                <h2 className="mt-5 mb-0">Secondi</h2>
-                <p className="mt-0">MAIN DISHES</p>
+                <h2 className="mt-5 mb-4">Secondi</h2>
                 {mainDishesMenu.map((secondi, index) =>
                 (
                     <Container key={index} className="mb-3">
                         <h6>{secondi.name}</h6>
-                        <p>{secondi.ingredients.join(", ")}</p>
-                        <p>{secondi.price}</p>
+                        <p className="mb-0">{secondi.ingredients.join(", ")}</p>
+                        <p className="fw-bold mt-0">{secondi.price}</p>
                     </Container>
                 )
                 )}

@@ -48,6 +48,14 @@ h4 {
   height: 400px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .join_us {
+    background-image: url(./assets/join_us/join_us.jpg);
+    width: 375px;
+    height: 375px;  
+  }
+}
+
 .btn {
   font-size: 12px !important;
 }

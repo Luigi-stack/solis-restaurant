@@ -6,7 +6,7 @@ function Review() {
     return (
         <>
             <Container className="testimonial mb-5">
-                <h2 className="text-center mb-4">Taste Testimonial</h2>
+                <h2 className="text-center mb-4">Testimonials</h2>
                 <Row>
                     <Col className="mb-2 mx-5">
                         <RiDoubleQuotesL className="fs-1 text-secondary" />
