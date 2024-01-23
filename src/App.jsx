@@ -7,6 +7,7 @@ import WelcomeHomePage from './Components/WelcomeHomePage';
 import JoinUs from './Components/JoinUs';
 import MenuPage from './Components/MenuPage';
 import Hours_and_Location from './Components/Hours_and_Location';
+import AboutUs from './Components/AboutUS';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/about" element={
             <>
               <NavBarTop />
+              <AboutUs />
 
             </>}
           />
