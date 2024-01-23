@@ -16,7 +16,7 @@ function WelcomeHomePage() {
                 <p className="lh-lg mb-5 fs-6">
                     Solis, an Italian culinary haven, invites you to a refined dining experience where gastronomy meets artistry. Delight in our meticulously crafted menu, a symphony of authentic flavors celebrating the essence of Italy. Elevate your meal with our curated wine selection, carefully chosen to complement the culinary journey. In an elegant setting, Solis invites you to savor the epitome of Italian indulgence.
                 </p>
-                <Button variant="outline-light" className="rounded-0 px-5 mb-3">LEARN MORE</Button>
+                <Button href="/about" variant="outline-light" className="rounded-0 px-5 mb-3">LEARN MORE</Button>
             </Container>
 
             <Container className="mb-5">
@@ -32,6 +32,7 @@ function WelcomeHomePage() {
                             header="Celebrate Together"
                             cardText="Solis, where moments are celebrated effortlessly. Whether it's a business dinner or a joyous occasion, our refined ambiance welcomes every gathering. No excuses needed, just relish the pleasure of coming together."
                             button="LEARN MORE"
+                            href="#"
                         />
                     </Col>
                 </Row>
@@ -42,6 +43,7 @@ function WelcomeHomePage() {
                             header="Menù"
                             cardText="Solis' menu, a culinary masterpiece, features locally sourced ingredients meticulously crafted into a rich tapestry of Italian flavors. Experience a symphony of taste, where tradition meets innovation in every delightful bite."
                             button="MENÙ"
+                            href="/menus"
                         />
                     </Col>
 

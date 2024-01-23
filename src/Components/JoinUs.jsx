@@ -9,7 +9,7 @@ function JoinUs() {
         <>
             <Container fluid className="join_us text-white d-flex flex-column justify-content-center align-items-center mb-5" >
                 <h2 className="text-center">Join Us for Dinner</h2>
-                <Button variant="dark" className='rounded-0 font-monospace'>RESERVATIONS</Button>
+                <Button href="#" variant="dark" className='rounded-0 font-monospace'>RESERVATIONS</Button>
             </Container>
 
         </>

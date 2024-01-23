@@ -6,6 +6,7 @@ import Review from './Components/Review';
 import WelcomeHomePage from './Components/WelcomeHomePage';
 import JoinUs from './Components/JoinUs';
 import MenuPage from './Components/MenuPage';
+import Hours_and_Location from './Components/Hours_and_Location';
 
 function App() {
 
@@ -13,12 +14,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-       
-        <Route
-          path="/*"
-          element={<Navigate to="/home" />}
-        />
-          
+
+          <Route
+            path="/*"
+            element={<Navigate to="/home" />}
+          />
+
           <Route path="/home" element={
             <>
               <NavBarTop />
@@ -29,10 +30,24 @@ function App() {
             </>}
           />
 
-          <Route path="/menus/*" element={
+          <Route path="/menus" element={
             <>
               <NavBarTop />
               <MenuPage />
+            </>}
+          />
+
+          <Route path="/hours-and-location" element={
+            <>
+              <NavBarTop />
+              <Hours_and_Location />
+            </>}
+          />
+
+          <Route path="/about" element={
+            <>
+              <NavBarTop />
+
             </>}
           />
         </Routes>
