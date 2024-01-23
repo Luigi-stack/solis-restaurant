@@ -41,10 +41,18 @@ function App() {
             <>
               <NavBarTop />
               <Hours_and_Location />
+              <JoinUs />
             </>}
           />
 
           <Route path="/about" element={
+            <>
+              <NavBarTop />
+
+            </>}
+          />
+
+          <Route path="/reservations" element={
             <>
               <NavBarTop />
 

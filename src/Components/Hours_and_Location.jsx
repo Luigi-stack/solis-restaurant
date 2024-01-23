@@ -6,7 +6,7 @@ function Hours_and_Location() {
     return (
 
         <>
-            <Container className='navbartop text-center'>
+            <Container className='navbartop text-center mb-5'>
                 <h1>Hours & Location</h1>
 
                 <h5>Brunch</h5>
@@ -20,11 +20,9 @@ function Hours_and_Location() {
 
                 <h5>Happy Hour</h5>
                 <p>Monday - Friday: 5 - 7 p.m.</p>
-
-                <MapComponent />
             </Container>
 
-
+            <MapComponent />
         </>
 
     )

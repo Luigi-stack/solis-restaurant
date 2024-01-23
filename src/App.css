@@ -68,3 +68,7 @@ h4 {
 .nav-link:hover {
   color: grey !important;
 }
+
+.map {
+  filter: grayscale(100%);         
+}

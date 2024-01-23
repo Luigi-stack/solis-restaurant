@@ -20,7 +20,7 @@ function NavBarTop() {
               <Nav.Link href="/menus" className='me-4 mt-2'>Menus</Nav.Link>
               <Nav.Link href="/hours-and-location" className='me-4 mt-2'>Hours & Location</Nav.Link>
               <Nav.Link href="/about" className='me-4 mt-2'>About</Nav.Link>
-              <Nav.Link href="/reservation">
+              <Nav.Link href="/reservations">
                 <Button variant="dark" className='rounded-0'>RESERVATIONS</Button>
               </Nav.Link>
             </Nav>

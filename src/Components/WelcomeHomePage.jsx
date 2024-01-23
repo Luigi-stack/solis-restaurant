@@ -32,7 +32,7 @@ function WelcomeHomePage() {
                             header="Celebrate Together"
                             cardText="Solis, where moments are celebrated effortlessly. Whether it's a business dinner or a joyous occasion, our refined ambiance welcomes every gathering. No excuses needed, just relish the pleasure of coming together."
                             button="LEARN MORE"
-                            href="#"
+                            href="/reservations"
                         />
                     </Col>
                 </Row>
@@ -48,8 +48,8 @@ function WelcomeHomePage() {
                     </Col>
 
                     <Col xs={12} md={6} className="d-flex justify-content-center">
-                        <img src={cardsimg_homepage2} alt="restaurant" width={350} className=' d-md-block d-lg-none' />
-                        <img src={cardsimg_homepage2} alt="restaurant" width={500} className='d-none d-lg-block ' />
+                        <img src={cardsimg_homepage2} alt="restaurant" width={350} className='d-md-block d-lg-none' />
+                        <img src={cardsimg_homepage2} alt="restaurant" width={500} className='d-none d-lg-block' />
                     </Col>
                 </Row>
 
