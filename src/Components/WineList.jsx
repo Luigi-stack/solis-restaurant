@@ -1,6 +1,9 @@
 import { Container } from "react-bootstrap";
+import { FaWineBottle } from "react-icons/fa";
+import { FaWineGlassAlt } from "react-icons/fa";
 
-wine_list = [
+
+const wine_list = [
     {"type": "SPUMANTI", "name": "Prosecco NV, Ronco Belvedere", "region": "Veneto", "price": {"glass": 17, "bottle": 68}},
     {"type": "SPUMANTI", "name": "Lambrusco di Sorbara Rosé, Azienda Agricola Zucchi", "region": "Emilia-Romagna", "price": {"glass": 18, "bottle": 72}},
     {"type": "SPUMANTI", "name": "Trento Brut Rose NV, Ferrari", "region": "Trentino", "price": {"glass": 25, "bottle": 100}},
@@ -24,3 +27,41 @@ wine_list = [
     {"type": "ROSSI", "name": "Barbera d’Asti 2019, Cascina Valle Asinari", "region": "Piemonte", "price": {"glass": 19, "bottle": 76}},
     {"type": "ROSSI", "name": "Croatina 'El Matt' 2019, Daniele Ricci", "region": "Piemonte", "price": {"glass": 25, "bottle": 100}}
 ]
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+  }
+  
+  function WineList() {
+    // Raggruppa i vini per tipologia
+    const groupedWines = {};
+    wine_list.forEach((wine) => {
+      if (!groupedWines[wine.type]) {
+        groupedWines[wine.type] = [];
+      }
+      groupedWines[wine.type].push(wine);
+    });
+  
+    return (
+      <>
+        <Container className="mb-5 text-center">
+          {Object.keys(groupedWines).map((wineType) => (
+            <div key={wineType}>
+              <h2 className="mt-5 mb-0">{capitalizeFirstLetter(wineType)}</h2>
+              {groupedWines[wineType].map((wine, index) => (
+                <Container key={index} className="mb-3">
+                  <h6>{wine.name}</h6>
+                  <p>{wine.region}</p>
+                  <p>
+                    <FaWineBottle /> {wine.price.bottle} | <FaWineGlassAlt /> {wine.price.glass}
+                  </p>
+                </Container>
+              ))}
+            </div>
+          ))}
+        </Container>
+      </>
+    );
+  }
+  
+  export default WineList;

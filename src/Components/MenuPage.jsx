@@ -5,6 +5,7 @@ import Antipasti from './Antipasti'
 import Primi from './Primi';
 import Pizza from './Pizza';
 import Secondi from './Secondi';
+import WineList from './WineList';
 
 
 const MenuPage = () => {
@@ -31,7 +32,7 @@ const MenuPage = () => {
                         <Pizza />
                     </Tab>
                     <Tab eventKey="winelist" title="Wine List">
-                        Wine List
+                    <WineList />
                     </Tab>
                 </Tabs>
             </Container>
