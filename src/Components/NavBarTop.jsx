@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
+import logo from '../assets/logo/logo.png'
 
 
 
@@ -9,9 +10,9 @@ function NavBarTop() {
   return (
     <>
 
-      <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-white mt-3 mx-2 border border-2 border-dark">
+      <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-white mt-3 mx-2 border border-1 border-dark">
         <Container>
-          <Navbar.Brand href="/home">Solis</Navbar.Brand>
+          <Navbar.Brand href="/home"><img src={logo} alt="logo solis restaurant, italian food and wine" width={125}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border border-0 rounded-0' />
           <Navbar.Collapse id="responsive-navbar-nav">
 
