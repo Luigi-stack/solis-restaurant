@@ -6,7 +6,7 @@ function Hours_and_Location() {
     return (
 
         <>
-            <Container className='navbartop text-center mb-5'>
+            <Container className='navbartop text-center mb-5' data-aos="fade-up" data-aos-duration="3000">
                 <h1>Hours & Location</h1>
 
                 <h5>Brunch</h5>

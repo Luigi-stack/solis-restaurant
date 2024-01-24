@@ -9,9 +9,15 @@ import Hours_and_Location from './Components/Hours_and_Location';
 import AboutUs from './Components/AboutUS';
 import Reservations from './Components/Reservations';
 import Footerbottom from './Components/Footerbottom'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+}, []);
 
   return (
     <>

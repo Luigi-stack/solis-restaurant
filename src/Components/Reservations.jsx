@@ -22,7 +22,7 @@ function Reservations() {
 
         <>
             <Container className='navbartop mb-5'>
-                <Row className='justify-content-center align-items-center'>
+                <Row className='justify-content-center align-items-center' data-aos="fade-up" data-aos-duration="3000">
                     <Col xs={12} lg={3} className='text-center me-lg-5'>
                         <h2 className='mt-lg-5'>Let's Party</h2>
                         <p className='lh-lg fs-6'>

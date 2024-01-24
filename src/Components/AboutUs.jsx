@@ -16,7 +16,7 @@ function AboutUs() {
         <>
             <Container className="navbartop mb-5 pb-5">
                 <h1 className="text-center mb-5">About</h1>
-                <Row className="mb-4">
+                <Row className="mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <Col xs={12} md={6} className="d-flex justify-content-center mb-3 mb-md-0">
                         <img src={aboutus_img1} alt="restaurant" width={350} className=' d-md-block d-lg-none' />
                         <img src={aboutus_img1} alt="restaurant" width={470} className='d-none d-lg-block ' />
@@ -31,7 +31,7 @@ function AboutUs() {
                     </Col>
                 </Row>
 
-                <Row className="mb-5 pb-5">
+                <Row className="mb-5 pb-5" data-aos="fade-up" data-aos-duration="3000">
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center mb-3 mb-md-0">
                         <h2>Our Passion</h2>
                         <p className='fs-6 text-center lh-lg'>
@@ -45,7 +45,7 @@ function AboutUs() {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row data-aos="fade-up" data-aos-duration="3000">
 
                     <h2 className="text-center mb-5">Our Team</h2>
 

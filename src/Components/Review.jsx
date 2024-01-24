@@ -7,7 +7,7 @@ function Review() {
         <>
             <Container className="testimonial mb-5">
                 <h2 className="text-center mb-4">Testimonials</h2>
-                <Row>
+                <Row data-aos="fade-up" data-aos-duration="1000">
                     <Col className="mb-2 mx-5">
                         <RiDoubleQuotesL className="fs-1 text-secondary" />
                         <h4 className="text-center">LOVELY RESTAURANT</h4>

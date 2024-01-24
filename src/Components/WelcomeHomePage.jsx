@@ -2,13 +2,16 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import CardsHomepage from "./CardsHomepage";
-import cardsimg_homepage1 from "../assets/card_homepage/1.png"
-import cardsimg_homepage2 from "../assets/card_homepage/2.png"
+import cardsimg_homepage1 from "../assets/card_homepage/1.png";
+import cardsimg_homepage2 from "../assets/card_homepage/2.png";
+
+
 
 
 
 
 function WelcomeHomePage() {
+
     return (
         <>
             <Container fluid className="bg-black text-white p-5 text-center mb-5 navbartop">
@@ -20,7 +23,7 @@ function WelcomeHomePage() {
             </Container>
 
             <Container className="mb-5">
-                <Row className="mb-4">
+                <Row className="mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <Col xs={12} md={6} className="d-flex justify-content-center mb-3 mb-md-0">
                         <img src={cardsimg_homepage1} alt="restaurant" width={350} className=' d-md-block d-lg-none' />
                         <img src={cardsimg_homepage1} alt="restaurant" width={470} className='d-none d-lg-block ' />
@@ -37,7 +40,7 @@ function WelcomeHomePage() {
                     </Col>
                 </Row>
 
-                <Row className="mb-5">
+                <Row className="mb-5" data-aos="fade-up" data-aos-duration="3000">
                     <Col xs={12} md={6} className="d-flex justify-content-center align-items-center mb-3 mb-md-0">
                         <CardsHomepage
                             header="Menù"
