@@ -9,6 +9,7 @@ import MenuPage from './Components/MenuPage';
 import Hours_and_Location from './Components/Hours_and_Location';
 import AboutUs from './Components/AboutUS';
 import Reservations from './Components/Reservations';
+import Footerbottom from './Components/Footerbottom'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
               <WelcomeHomePage />
               <Review />
               <JoinUs />
+              <Footerbottom />
             </>}
           />
 
@@ -37,6 +39,7 @@ function App() {
             <>
               <NavBarTop />
               <MenuPage />
+              <Footerbottom />
             </>}
           />
 
@@ -45,6 +48,7 @@ function App() {
               <NavBarTop />
               <Hours_and_Location />
               <JoinUs />
+              <Footerbottom />
             </>}
           />
 
@@ -52,7 +56,7 @@ function App() {
             <>
               <NavBarTop />
               <AboutUs />
-
+              <Footerbottom />
             </>}
           />
 
@@ -60,7 +64,7 @@ function App() {
             <>
               <NavBarTop />
               <Reservations />
-
+              <Footerbottom />
             </>}
           />
         </Routes>
