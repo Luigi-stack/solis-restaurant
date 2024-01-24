@@ -6,9 +6,9 @@ import WelcomeHomePage from './Components/WelcomeHomePage';
 import JoinUs from './Components/JoinUs';
 import MenuPage from './Components/MenuPage';
 import Hours_and_Location from './Components/Hours_and_Location';
-import AboutUs from './Components/AboutUS';
 import Reservations from './Components/Reservations';
-import Footerbottom from './Components/Footerbottom'
+import Footerbottom from './Components/Footerbottom';
+import AboutUs from './Components/AboutUS';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

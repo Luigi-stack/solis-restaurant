@@ -8,10 +8,7 @@ import team3 from '../assets/team/3.png';
 import team4 from '../assets/team/4.png';
 
 
-
-
-
-function AboutUs() {
+function AboutUs () {
     return (
         <>
             <Container className="navbartop mb-5 pb-5">
