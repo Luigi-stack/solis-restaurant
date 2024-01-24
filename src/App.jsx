@@ -8,7 +8,7 @@ import MenuPage from './Components/MenuPage';
 import Hours_and_Location from './Components/Hours_and_Location';
 import Reservations from './Components/Reservations';
 import Footerbottom from './Components/Footerbottom';
-import AboutUs from './Components/AboutUS';
+import About_us from './Components/About_us';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -60,7 +60,7 @@ function App() {
           <Route path="/about" element={
             <>
               <NavBarTop />
-              <AboutUs />
+              <About_us />
               <JoinUs />
               <Footerbottom />
             </>}

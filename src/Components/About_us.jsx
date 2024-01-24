@@ -8,7 +8,7 @@ import team3 from '../assets/team/3.png';
 import team4 from '../assets/team/4.png';
 
 
-function AboutUs () {
+function About_us () {
     return (
         <>
             <Container className="navbartop mb-5 pb-5">
@@ -82,4 +82,4 @@ function AboutUs () {
     )
 }
 
-export default AboutUs;
+export default About_us;
