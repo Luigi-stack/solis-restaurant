@@ -14,7 +14,7 @@ import team4 from '../assets/team/4.png';
 function AboutUs() {
     return (
         <>
-            <Container className="navbartop mb-5">
+            <Container className="navbartop mb-5 pb-5">
                 <h1 className="text-center mb-5">About</h1>
                 <Row className="mb-4">
                     <Col xs={12} md={6} className="d-flex justify-content-center mb-3 mb-md-0">
@@ -31,7 +31,7 @@ function AboutUs() {
                     </Col>
                 </Row>
 
-                <Row className="mb-5">
+                <Row className="mb-5 pb-5">
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center mb-3 mb-md-0">
                         <h2>Our Passion</h2>
                         <p className='fs-6 text-center lh-lg'>
