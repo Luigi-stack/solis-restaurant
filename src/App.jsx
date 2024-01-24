@@ -1,6 +1,5 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import CarouselHomepage from './Components/CarouselHomepage';
 import NavBarTop from './Components/NavBarTop';
 import Review from './Components/Review';
 import WelcomeHomePage from './Components/WelcomeHomePage';
@@ -27,7 +26,6 @@ function App() {
           <Route path="/home" element={
             <>
               <NavBarTop />
-              <CarouselHomepage />
               <WelcomeHomePage />
               <Review />
               <JoinUs />
@@ -39,6 +37,7 @@ function App() {
             <>
               <NavBarTop />
               <MenuPage />
+              <JoinUs />
               <Footerbottom />
             </>}
           />
@@ -56,6 +55,7 @@ function App() {
             <>
               <NavBarTop />
               <AboutUs />
+              <JoinUs />
               <Footerbottom />
             </>}
           />

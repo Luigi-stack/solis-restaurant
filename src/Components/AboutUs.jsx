@@ -19,7 +19,7 @@ function AboutUs() {
                 <Row className="mb-4">
                     <Col xs={12} md={6} className="d-flex justify-content-center mb-3 mb-md-0">
                         <img src={aboutus_img1} alt="restaurant" width={350} className=' d-md-block d-lg-none' />
-                        <img src={aboutus_img1} alt="restaurant" width={500} className='d-none d-lg-block ' />
+                        <img src={aboutus_img1} alt="restaurant" width={470} className='d-none d-lg-block ' />
 
                     </Col>
 
@@ -41,7 +41,7 @@ function AboutUs() {
 
                     <Col xs={12} md={6} className="d-flex justify-content-center">
                         <img src={aboutus_img2} alt="restaurant" width={350} className='d-md-block d-lg-none' />
-                        <img src={aboutus_img2} alt="restaurant" width={500} className='d-none d-lg-block' />
+                        <img src={aboutus_img2} alt="restaurant" width={470} className='d-none d-lg-block' />
                     </Col>
                 </Row>
 

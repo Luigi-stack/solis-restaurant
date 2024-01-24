@@ -11,7 +11,7 @@ import cardsimg_homepage2 from "../assets/card_homepage/2.png"
 function WelcomeHomePage() {
     return (
         <>
-            <Container fluid className="bg-black text-white p-5 text-center mb-5">
+            <Container fluid className="bg-black text-white p-5 text-center mb-5 navbartop">
                 <h1 className="">Welcome</h1>
                 <p className="lh-lg mb-5 fs-6">
                     Solis, an Italian culinary haven, invites you to a refined dining experience where gastronomy meets artistry. Delight in our meticulously crafted menu, a symphony of authentic flavors celebrating the essence of Italy. Elevate your meal with our curated wine selection, carefully chosen to complement the culinary journey. In an elegant setting, Solis invites you to savor the epitome of Italian indulgence.
@@ -23,7 +23,7 @@ function WelcomeHomePage() {
                 <Row className="mb-4">
                     <Col xs={12} md={6} className="d-flex justify-content-center mb-3 mb-md-0">
                         <img src={cardsimg_homepage1} alt="restaurant" width={350} className=' d-md-block d-lg-none' />
-                        <img src={cardsimg_homepage1} alt="restaurant" width={500} className='d-none d-lg-block ' />
+                        <img src={cardsimg_homepage1} alt="restaurant" width={470} className='d-none d-lg-block ' />
 
                     </Col>
 
@@ -49,7 +49,7 @@ function WelcomeHomePage() {
 
                     <Col xs={12} md={6} className="d-flex justify-content-center">
                         <img src={cardsimg_homepage2} alt="restaurant" width={350} className='d-md-block d-lg-none' />
-                        <img src={cardsimg_homepage2} alt="restaurant" width={500} className='d-none d-lg-block' />
+                        <img src={cardsimg_homepage2} alt="restaurant" width={470} className='d-none d-lg-block' />
                     </Col>
                 </Row>
 
