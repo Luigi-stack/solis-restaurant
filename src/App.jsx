@@ -8,6 +8,8 @@ import JoinUs from './Components/JoinUs';
 import MenuPage from './Components/MenuPage';
 import Hours_and_Location from './Components/Hours_and_Location';
 import AboutUs from './Components/AboutUS';
+import Reservations from './Components/Reservations';
+
 
 function App() {
 
@@ -57,6 +59,7 @@ function App() {
           <Route path="/reservations" element={
             <>
               <NavBarTop />
+              <Reservations />
 
             </>}
           />

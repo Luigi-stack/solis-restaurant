@@ -4,8 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import logo from '../assets/logo/logo.png'
 
-
-
 function NavBarTop() {
   return (
     <>

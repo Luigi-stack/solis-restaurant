@@ -11,7 +11,7 @@ import WineList from './WineList';
 const MenuPage = () => {
     return (
         <>
-            <Container className='navbartop'>
+            <Container className='navbartop mb-5'>
                 <h1 className="text-center border-bottom border-dark">Menù</h1>
                 <Tabs
                     defaultActiveKey="antipasti"
