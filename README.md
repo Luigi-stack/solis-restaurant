@@ -1,4 +1,4 @@
-# Welcome to Solis Italian Food & Wine 🏥
+# Welcome to Solis Italian Food & Wine 🍝
 
 ![VitalCare Clinic](src/assets/about/Solis-restaurant.png)
 
