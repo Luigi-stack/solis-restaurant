@@ -1,8 +1,16 @@
-# React + Vite
+# Welcome to Solis Italian Food & Wine 🏥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![VitalCare Clinic](src/assets/about/Solis-restaurant.png)
 
-Currently, two official plugins are available:
+## Description 📜
+Welcome to Solis Italian Food and Wine, where elegance meets exclusivity. Explore our authentic Italian cuisine, curated wine selection, and refined ambiance for an unforgettable dining experience. Buon appetito! 🍝🍷🏞️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[👉 Explore the live website ](https://solis-italian-food-and-wine.netlify.app/home)
+
+## Technologies Used 🛠️
+
+- HTML, CSS, and JavaScript for the front-end user interface.
+- React.js as the front-end library for dynamic rendering.
+- React Bootstrap: A UI framework that integrates Bootstrap styles and components into React applications, providing a responsive and visually appealing user interface.
+
+Feel free to explore the project and contribute to make it even more amazing! 😊🚀
